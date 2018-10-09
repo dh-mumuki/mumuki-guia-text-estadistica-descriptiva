@@ -1,0 +1,17 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- value: Variables cuantitativas
+  checked: false
+- value: Variables categóricas
+  checked: false
+- value: Variables categóricas y cuantitativas
+  checked: true
+- value: Ninguna de las anteriores
+  checked: false
+name: New exercise

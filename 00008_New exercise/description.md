@@ -1,0 +1,1 @@
+La moda es una medida de posición central adecuada para:
