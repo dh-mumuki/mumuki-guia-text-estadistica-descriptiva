@@ -6,12 +6,14 @@ type: problem
 extra_visible: false
 manual_evaluation: false
 choices:
-- value: Variables cuantitativas
+- value: "$146,56"
   checked: false
-- value: Variables categóricas
+- value: "$233,33"
   checked: false
-- value: Variables categóricas y cuantitativas
+- value: "$161,46"
   checked: true
-- value: Ninguna de las anteriores
+- value: '135'
   checked: false
-name: New exercise
+- value: "$150,67"
+  checked: false
+name: Ejercicio

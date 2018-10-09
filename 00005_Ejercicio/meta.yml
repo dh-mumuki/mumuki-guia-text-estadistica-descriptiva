@@ -6,12 +6,14 @@ type: problem
 extra_visible: false
 manual_evaluation: false
 choices:
-- value: Media > Me
+- value: La media
   checked: false
-- value: Media < Me
+- value: La moda
+  checked: false
+- value: Los cuartiles y la mediana
   checked: true
-- value: Mediana = Me
+- value: El desvío dstandar
   checked: false
-- value: Ninguna de  las anteriores
+- value: La varianza
   checked: false
-name: New exercise
+name: Ejercicio
