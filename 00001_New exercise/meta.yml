@@ -1,0 +1,19 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- value: "$146,56"
+  checked: false
+- value: "$233,33"
+  checked: false
+- value: "$161,46"
+  checked: true
+- value: '135'
+  checked: false
+- value: "$150,67"
+  checked: false
+name: New exercise
