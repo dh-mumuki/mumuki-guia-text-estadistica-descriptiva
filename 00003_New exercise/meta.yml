@@ -1,0 +1,17 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- value: Media > Me
+  checked: false
+- value: Media < Me
+  checked: true
+- value: Mediana = Me
+  checked: false
+- value: Ninguna de  las anteriores
+  checked: false
+name: New exercise

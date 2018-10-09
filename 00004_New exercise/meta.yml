@@ -1,0 +1,19 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- value: Tiene media $2380
+  checked: false
+- value: Tiene Desvío 198,72
+  checked: false
+- value: Tiene mayor variabilidad relativa que la sucursal de Córdoba
+  checked: true
+- value: Tiene menor variabilidad relativa que la sucursal de Córdoba
+  checked: false
+- value: Ambos coeficientes de variación son iguales
+  checked: false
+name: New exercise
