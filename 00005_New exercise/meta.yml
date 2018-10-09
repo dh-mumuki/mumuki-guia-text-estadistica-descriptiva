@@ -1,0 +1,19 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- value: La media
+  checked: false
+- value: La moda
+  checked: false
+- value: Los cuartiles y la mediana
+  checked: true
+- value: El desvío dstandar
+  checked: false
+- value: La varianza
+  checked: false
+name: New exercise

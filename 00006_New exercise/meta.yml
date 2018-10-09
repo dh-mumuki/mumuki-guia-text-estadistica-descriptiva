@@ -1,0 +1,18 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- value: La mediana no cambia nunca.
+  checked: true
+- value: La mediana puede cambiar si el valor nuevo modifica el ranking de las observaciones
+    ordenadas.
+  checked: false
+- value: No hay suficiente información para responder.
+  checked: false
+- value: Ninguna de las anteriores.
+  checked: false
+name: New exercise
