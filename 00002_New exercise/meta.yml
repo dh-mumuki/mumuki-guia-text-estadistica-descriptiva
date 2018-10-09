@@ -1,0 +1,17 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- value: Ignorar el valor faltante.
+  checked: false
+- value: Completarlo con el promedio de los demás días.
+  checked: false
+- value: Reemplazarlo con un cero.
+  checked: false
+- value: Ninguna de las anteriores
+  checked: true
+name: New exercise
