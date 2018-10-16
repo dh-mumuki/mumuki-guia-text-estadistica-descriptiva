@@ -6,14 +6,12 @@ type: problem
 extra_visible: false
 manual_evaluation: false
 choices:
-- value: "$146,56"
-  checked: false
-- value: "$233,33"
-  checked: false
-- value: "$161,46"
+- value: Se modifica fuertemente
   checked: true
-- value: '135'
+- value: No se modifica
   checked: false
-- value: "$150,67"
+- value: Puede ser negativo
   checked: false
-name: Ejercicio
+- value: No puede determinarse
+  checked: false
+name: Ejercicio 7

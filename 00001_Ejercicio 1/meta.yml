@@ -6,14 +6,14 @@ type: problem
 extra_visible: false
 manual_evaluation: false
 choices:
-- value: La media
+- value: "$146,56"
   checked: false
-- value: La moda
+- value: "$233,33"
   checked: false
-- value: Los cuartiles y la mediana
+- value: "$161,46"
   checked: true
-- value: El desvío dstandar
+- value: '135'
   checked: false
-- value: La varianza
+- value: "$150,67"
   checked: false
-name: Ejercicio
+name: Ejercicio 1
