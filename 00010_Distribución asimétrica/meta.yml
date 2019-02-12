@@ -1,0 +1,24 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La media, mediana y moda coinciden.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La media y la mediana coinciden y son mayores que la moda.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La media y la moda coinciden y son mayores que la mediana.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La mediana es mayor que la media y menor que la moda.
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La media es mayor que la mediana, y ésta, mayor que la moda.
+  checked: false
+name: Distribución asimétrica
