@@ -16,9 +16,9 @@ choices:
   value: "$161,46"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '135'
+  value: "$135"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "$150,67"
   checked: false
-name: Ejercicio 1
+name: Media
