@@ -1,0 +1,1 @@
+Una empresa de publicidad, originalmente en Córdoba, abrió una sede en Buenos Aires. Para la sede de Buenos Aires, contrató 5 empleados cuyos salarios semanales fueron 2536,$2137, $2448, $2121 y $ 2622. En la sucursal de Córdoba hay 6 empleados, y su salario promedio semanal es $2550, y el desvío estándar es $250. Entonces la sucursal de Buenos Aires:

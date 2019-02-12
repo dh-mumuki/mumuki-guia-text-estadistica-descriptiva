@@ -6,12 +6,16 @@ type: problem
 extra_visible: false
 manual_evaluation: false
 choices:
-- value: Ignorar el valor faltante.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Ignorar el valor faltante.
   checked: false
-- value: Completarlo con el promedio de los demás días.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Completarlo con el promedio de los demás días.
   checked: false
-- value: Reemplazarlo con un cero.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Reemplazarlo con un cero.
   checked: false
-- value: Ninguna de las anteriores
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Ninguna de las anteriores
   checked: true
 name: Ejercicio 2

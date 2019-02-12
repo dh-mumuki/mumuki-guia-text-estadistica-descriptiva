@@ -6,14 +6,19 @@ type: problem
 extra_visible: false
 manual_evaluation: false
 choices:
-- value: La media
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La media
   checked: false
-- value: La moda
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La moda
   checked: false
-- value: Los cuartiles y la mediana
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Los cuartiles y la mediana
   checked: true
-- value: El desvío dstandar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El desvío dstandar
   checked: false
-- value: La varianza
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La varianza
   checked: false
 name: Ejercicio 5

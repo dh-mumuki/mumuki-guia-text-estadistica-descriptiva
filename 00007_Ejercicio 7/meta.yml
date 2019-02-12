@@ -6,12 +6,16 @@ type: problem
 extra_visible: false
 manual_evaluation: false
 choices:
-- value: Se modifica fuertemente
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Se modifica fuertemente
   checked: true
-- value: No se modifica
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: No se modifica
   checked: false
-- value: Puede ser negativo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Puede ser negativo
   checked: false
-- value: No puede determinarse
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: No puede determinarse
   checked: false
 name: Ejercicio 7
