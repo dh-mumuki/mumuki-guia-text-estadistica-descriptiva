@@ -1,0 +1,1 @@
+Si en una muestra reemplazamos una observación con cierto valor por otra con un valor más extremo, entonces:

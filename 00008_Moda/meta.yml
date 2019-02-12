@@ -7,15 +7,15 @@ extra_visible: false
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Se modifica fuertemente
+  value: Variables cuantitativas.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Variables categóricas.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Variables categóricas y cuantitativas.
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: No se modifica
+  value: Ninguna de las anteriores.
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Puede ser negativo
-  checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: No puede determinarse
-  checked: false
-name: Ejercicio 7
+name: Moda

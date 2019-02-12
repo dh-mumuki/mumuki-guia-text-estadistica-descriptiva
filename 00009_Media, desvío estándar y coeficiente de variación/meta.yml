@@ -1,0 +1,24 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Tiene mayor salario promedio y menor desvío estándar.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Tiene menor promedio salarial y mayor desvío estándar.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Tiene mayor coeficiente de variación que la sucursal de Córdoba.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Tiene menor coeficiente de variación que la sucursal de Córdoba.
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Ambos coeficientes de variación son iguales.
+  checked: false
+name: Media, desvío estándar y coeficiente de variación

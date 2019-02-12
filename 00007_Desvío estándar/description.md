@@ -1,0 +1,1 @@
+Si por error  de carga se incluye un dato con valor 100000 en una muestra con rango de  1 a 10, entonces el desvío estándar:

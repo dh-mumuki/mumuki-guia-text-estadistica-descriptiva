@@ -7,16 +7,15 @@ extra_visible: false
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: La mediana no cambia nunca.
+  value: Se modifica fuertemente.
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: La mediana puede cambiar si el valor nuevo modifica el ranking de las observaciones
-    ordenadas.
+  value: No se modifica.
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: No hay suficiente información para responder.
+  value: Puede ser negativo.
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ninguna de las anteriores.
+  value: No puede determinarse.
   checked: false
-name: Ejercicio 6
+name: Desvío estándar
