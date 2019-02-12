@@ -1,1 +1,1 @@
-Un boxplot es un gráfico basado en
+Un boxplot es un gráfico basado en:
