@@ -9,10 +9,9 @@ id_format: "%05d"
 order:
 - 1
 - 2
-- 6
 - 8
+- 6
 - 5
 - 7
 - 9
-- 10
 private: false

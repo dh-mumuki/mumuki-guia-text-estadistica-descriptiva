@@ -1,1 +1,0 @@
-En una distribución en la que hay valores extremos en la cola izquierda:

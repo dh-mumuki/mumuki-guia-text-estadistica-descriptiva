@@ -1,1 +1,1 @@
-El precio de licuadora varía con la estación del año. En verano se vendieron 126 a $200 y en invierno se vendieron 79 a $100. La media del precio para ambas estaciones fue:
+El precio de las licuadoras varía según la estación del año. En verano se vendieron 126 a $200, mientras que en invierno se vendieron 79 a $100. La media del precio para ambas estaciones fue:

@@ -1,1 +1,1 @@
-Llegó el momento de poner a prueba todo lo que hemos aprendido sobre Estadística. En este desafío, deberás responder una serie de preguntas que integran los distintos temas que hemos cubierto en las lecciones anteriores. ¡Comencemos!
+Asimilando conceptos.
