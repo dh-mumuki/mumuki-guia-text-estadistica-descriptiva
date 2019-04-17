@@ -1,4 +1,3 @@
-class Test(unittest.TestCase):
-
-  def test_description_example(self):
-    self.assertTrue(True)
+class TestFixtures(unittest.TestCase):
+   def test_repetidos(self):
+      self.assertEquals(repetidos([1,1, 2]), True)
