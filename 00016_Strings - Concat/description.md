@@ -1,1 +1,1 @@
-Escribí una función que reciba una lista y concatene cada elemento de la lista en un único string.
+Escribí una función que reciba una lista y concatene cada elemento de la lista en un único string. 
