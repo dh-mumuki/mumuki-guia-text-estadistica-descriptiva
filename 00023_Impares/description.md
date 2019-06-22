@@ -1,1 +1,1 @@
-Escribí una función que, dado un número, devuelva una lista por comprensión con los los números impares comprendidos entre 0 y ese número.
+Escribí una función que, dado un número, devuelva una lista con los los números impares comprendidos entre 0 y ese número. Como condición, la función se debe construir con una lista por comprensión.
