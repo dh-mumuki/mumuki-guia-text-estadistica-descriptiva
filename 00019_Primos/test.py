@@ -1,4 +1,6 @@
-class Test(unittest.TestCase):
-
-  def test_description_example(self):
-    self.assertTrue(True)
+class TestFixtures(unittest.TestCase):
+  def test_primos(self):
+    self.assertTrue(primos(7))
+  def test_no_primo(self):
+    self.assertFalse(primos(9))
+    
