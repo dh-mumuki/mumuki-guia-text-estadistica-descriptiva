@@ -1,1 +1,1 @@
-Escribí una función que reciba una lista y devuelva otra lista con los valores únicos.
+Escribí una función que reciba una lista y devuelva otra lista eliminando los valores repetidos.
