@@ -1,2 +1,1 @@
-def check():
-  pass
+def check(
