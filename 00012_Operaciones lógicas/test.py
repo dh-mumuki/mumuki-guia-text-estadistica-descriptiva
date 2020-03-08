@@ -12,7 +12,7 @@ class TestFixtures(unittest.TestCase):
       self.assertFalse(near_thousand(50), "El 50 NO debe pasar.")
 
   def test_with_string(self):
-    with self.assertRaises(TypeError):
+    with self.assertRaises(TypeError, msg="Un string no debe funcionar."):
       function("a")
 
   def test_values(self):
