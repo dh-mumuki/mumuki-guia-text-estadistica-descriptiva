@@ -13,6 +13,6 @@ class TestFixtures(unittest.TestCase):
 
   def test_values(self):
     function = lambda x: x >= 100 and x <= 1000
-    correct_values = [function(value) for value in range(0, 2000, 100)]
-    tested_values = [near_thousand(value) for value in range(0, 2000, 100)]
+    correct_values = [function(value) for value in range(0, 1100, 50)]
+    tested_values = [near_thousand(value) for value in range(0, 1100, 50)]
     self.assertEqual(correct_values, tested_values)
