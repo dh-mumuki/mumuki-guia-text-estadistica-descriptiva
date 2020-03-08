@@ -3,4 +3,3 @@ class TestFixtures(unittest.TestCase):
     self.assertTrue(primos(7))
   def test_no_primo(self):
     self.assertFalse(primos(9))
-    
