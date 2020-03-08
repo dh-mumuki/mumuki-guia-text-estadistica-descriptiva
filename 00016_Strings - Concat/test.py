@@ -9,5 +9,5 @@ class TestConcat(unittest.TestCase):
     )
 
   def test_not_iterable(self):
-    with assertRaises(TypeError, msg="Tiene que fallar con un número"):
+    with self.assertRaises(TypeError, msg="Tiene que fallar con un número"):
       concat_string(234)
