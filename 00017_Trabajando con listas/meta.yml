@@ -6,6 +6,7 @@ editor: code
 type: problem
 extra_visible: false
 language: python
+teacher_info: ''
 manual_evaluation: false
 choices: []
 name: Trabajando con listas
