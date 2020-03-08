@@ -1,8 +1,5 @@
-class Test(unittest.TestCase):
+class TestCheck(unittest.TestCase):
 
   def test_four_in_list(self):
     self.assertTrue(check(4, [3, 2, 4, 5]), "check(4, [3, 2, 4, 5]) != True")
     self.assertEqual(check(4, [3, 2, 5]), [3, 2, 5, 4], "check(4, [3, 2, 5]) != [3, 2, 5, 4]")
-
-  def test_function(self):
-    self()
