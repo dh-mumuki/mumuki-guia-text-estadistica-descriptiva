@@ -1,6 +1,6 @@
-class Test(unittest.TestCase):
+class TestConcat(unittest.TestCase):
 
-  def test_description_example(self):
+  def test_concat_list(self):
     ls = ["a", "s", "d", "f"]
     self.assertEqual(
       concat_string(ls),
@@ -8,6 +8,6 @@ class Test(unittest.TestCase):
       "concat_string(['a', 's', 'd', 'f']) != 'asdf'"
     )
 
-  def test_iterable(self):
+  def test_not_iterable(self):
     with assertRaises(TypeError, msg="Tiene que fallar con un número"):
       concat_string(234)
