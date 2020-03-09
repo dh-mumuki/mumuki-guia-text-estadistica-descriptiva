@@ -1,4 +1,4 @@
-class TestFixtures(unittest.TestCase):
+class TestPrimos(unittest.TestCase):
   def test_primos(self):
     self.assertTrue(primos(1))
     self.assertTrue(primos(2))
