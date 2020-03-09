@@ -13,7 +13,7 @@ class TestFixtures(unittest.TestCase):
 
   def test_with_string(self):
     with self.assertRaises(TypeError, msg="Un string no debe funcionar."):
-      function("a")
+      near_thousand("a")
 
   def test_values(self):
     function = lambda x: x >= 100 and x <= 1000
