@@ -11,10 +11,6 @@ class TestFixtures(unittest.TestCase):
   def test_50(self):
       self.assertFalse(near_thousand(50), "El 50 NO debe pasar.")
 
-  def test_with_string(self):
-    with self.assertRaises(TypeError, msg="Un string no debe funcionar."):
-      near_thousand("a")
-
   def test_values(self):
     function = lambda x: x >= 100 and x <= 1000
     correct_values = [function(value) for value in range(0, 1100, 50)]
