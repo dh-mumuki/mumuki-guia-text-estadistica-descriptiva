@@ -3,4 +3,4 @@ class TestFixtures(unittest.TestCase):
     self.assertEquals(suma_tres(1, 2, 3), 6)
 
   def test_suma_iguales(self):
-    self.assertEquals(suma_tres(3, 3, 3), 27)
+    self.assertEquals(suma_tres(4, 4, 4), 36)
