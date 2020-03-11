@@ -7,6 +7,6 @@ class TestFixtures(unittest.TestCase):
 
   def test_n_args(self):
     with self.assertRaises(TypeError, msg="La funcion no debe correr sin argumentos"):
-      near_thousand()
+      suma_tres()
     with self.assertRaises(TypeError, msg="La funcion no debe correr con cuatro argumentos"):
-      near_thousand(1, 2, 3, 4)
+      suma_tres(1, 2, 3, 4)
