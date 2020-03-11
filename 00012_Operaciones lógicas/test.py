@@ -20,7 +20,6 @@ class TestFixtures(unittest.TestCase):
         near_thousand(1, 2)
     except:
       raise ValueError("Revisar numero de argumentos de funcion.")
-    
 
   def test_values(self):
     function = lambda x: x >= 100 and x <= 1000

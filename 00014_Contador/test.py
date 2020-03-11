@@ -4,4 +4,13 @@ class TestFixtures(unittest.TestCase):
   def test_contado_3(self):
     self.assertEqual(cuenta_cuatro([1, 4, 6, 4, 4]), 3)
   def test_contado_0(self):
-    self.assertEqual(cuenta_cuatro([1,2, 3]), 0)
+    self.assertEqual(cuenta_cuatro([1, 2, 3]), 0)
+    
+  def test_n_args(self):
+    try:
+      with self.assertRaises(TypeError, msg="La funcion no debe correr sin argumentos"):
+        cuenta_cuatro()
+      with self.assertRaises(TypeError, msg="La funcion no debe correr con dos argumentos"):
+        cuenta_cuatro([1, 2], 2)
+    except:
+      raise ValueError("Revisar numero de argumentos de funcion.")
