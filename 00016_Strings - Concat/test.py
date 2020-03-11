@@ -13,10 +13,10 @@ class TestConcat(unittest.TestCase):
       concat_string(234)
 
   def test_n_args(self):
-    #try:
+    try:
       with self.assertRaises(TypeError):
         concat_string()
       with self.assertRaises(TypeError):
         concat_string(["a", "s", "d"], 2)
-    #except:
-    #  raise ValueError("Revisar numero de argumentos de funcion.")
+    except:
+      raise ValueError("Revisar numero de argumentos de funcion.")
