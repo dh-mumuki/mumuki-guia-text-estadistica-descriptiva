@@ -5,3 +5,12 @@ class TestCheck(unittest.TestCase):
     
   def test_four_not_in_list(self):
     self.assertEqual(check(4, [3, 2, 5]), [3, 2, 5, 4], "check(4, [3, 2, 5]) != [3, 2, 5, 4]")
+
+  def test_n_args(self):
+    try:
+      with self.assertRaises(TypeError, msg="La funcion no debe correr sin argumentos"):
+        check()
+      with self.assertRaises(TypeError, msg="La funcion no debe correr con dos argumentos"):
+        check(1, [1, 2, 3], 6)
+    except:
+      raise ValueError("Revisar numero de argumentos de funcion.")
