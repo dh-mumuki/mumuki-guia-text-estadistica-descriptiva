@@ -1,4 +1,7 @@
 class TestFixtures(unittest.TestCase):
+  
+  expected_n_args = 1
+  
   def test_1001(self):
       self.assertFalse(near_thousand(1001), "El 1001 NO debe pasar.")
 
@@ -10,6 +13,13 @@ class TestFixtures(unittest.TestCase):
 
   def test_50(self):
       self.assertFalse(near_thousand(50), "El 50 NO debe pasar.")
+  
+  def test_n_args(self):
+    with self.assertRaises(TypeError, msg="La funcion no debe correr sin argumentos"):
+      near_thousand()
+    with self.assertRaises(TypeError, msg="La funcion no debe correr con dos argumentos"):
+      near_thousand(1, 2)
+    
 
   def test_values(self):
     function = lambda x: x >= 100 and x <= 1000
