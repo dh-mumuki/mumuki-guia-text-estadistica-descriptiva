@@ -6,8 +6,10 @@ class TestFixtures(unittest.TestCase):
     self.assertEquals(suma_tres(4, 4, 4), 36)
 
   def test_n_args(self):
-    with self.assertRaises(TypeError):
-      suma_tres()
-      print("asd")
-    with self.assertRaises(TypeError):
-      suma_tres(1, 2, 3, 4)
+    try:
+      with self.assertRaises(TypeError):
+        suma_tres()
+      with self.assertRaises(TypeError):
+        suma_tres(1, 2, 3, 4)
+    except:
+      raise ValueError("Revisar numero de argumentos de funcion.")
