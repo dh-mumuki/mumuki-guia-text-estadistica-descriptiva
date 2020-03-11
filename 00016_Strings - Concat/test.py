@@ -14,7 +14,6 @@ class TestConcat(unittest.TestCase):
 
   def test_n_args(self):
     try:
-      pass
       with self.assertRaises(TypeError):
         stop_248()
       with self.assertRaises(TypeError):
