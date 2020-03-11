@@ -21,8 +21,8 @@ class TestPrimos(unittest.TestCase):
   def test_n_args(self):
     try:
       with self.assertRaises(TypeError):
-        stop_248()
+        primos()
       with self.assertRaises(TypeError):
-        stop_248(1, 2)
+        primos(1, 2)
     except:
       raise ValueError("Revisar numero de argumentos de funcion.")
