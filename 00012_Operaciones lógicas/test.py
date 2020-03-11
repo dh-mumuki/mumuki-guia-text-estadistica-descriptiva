@@ -1,7 +1,5 @@
 class TestFixtures(unittest.TestCase):
   
-  expected_n_args = 1
-  
   def test_1001(self):
       self.assertFalse(near_thousand(1001), "El 1001 NO debe pasar.")
 
