@@ -14,9 +14,9 @@ class TestFixtures(unittest.TestCase):
   
   def test_n_args(self):
     try:
-      with self.assertRaises(TypeError, msg="La funcion no debe correr sin argumentos"):
+      with self.assertRaises(TypeError):
         near_thousand()
-      with self.assertRaises(TypeError, msg="La funcion no debe correr con dos argumentos"):
+      with self.assertRaises(TypeError):
         near_thousand(1, 2)
     except:
       raise ValueError("Revisar numero de argumentos de funcion.")

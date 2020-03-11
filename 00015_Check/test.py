@@ -8,9 +8,9 @@ class TestCheck(unittest.TestCase):
 
   def test_n_args(self):
     try:
-      with self.assertRaises(TypeError, msg="La funcion no debe correr sin argumentos"):
+      with self.assertRaises(TypeError):
         check()
-      with self.assertRaises(TypeError, msg="La funcion no debe correr con dos argumentos"):
+      with self.assertRaises(TypeError):
         check(1, [1, 2, 3], 6)
     except:
       raise ValueError("Revisar numero de argumentos de funcion.")
