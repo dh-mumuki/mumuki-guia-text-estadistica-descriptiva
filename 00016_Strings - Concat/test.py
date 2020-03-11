@@ -15,9 +15,9 @@ class TestConcat(unittest.TestCase):
   def test_n_args(self):
     try:
       pass
-      #with self.assertRaises(TypeError):
-      #  cuenta_cuatro()
       with self.assertRaises(TypeError):
-        cuenta_cuatro(["a", "s", "d"], 2)
+        stop_248()
+      with self.assertRaises(TypeError):
+        stop_248(["a", "s", "d"], 2)
     except:
       raise ValueError("Revisar numero de argumentos de funcion.")
