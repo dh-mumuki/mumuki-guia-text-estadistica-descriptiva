@@ -15,8 +15,8 @@ class TestConcat(unittest.TestCase):
   def test_n_args(self):
     #try:
       with self.assertRaises(TypeError):
-        stop_248()
+        concat_string()
       with self.assertRaises(TypeError):
-        stop_248(["a", "s", "d"], 2)
+        concat_string(["a", "s", "d"], 2)
     #except:
     #  raise ValueError("Revisar numero de argumentos de funcion.")
