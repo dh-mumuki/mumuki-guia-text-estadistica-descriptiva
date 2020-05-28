@@ -11,6 +11,7 @@ class TestPrimos(unittest.TestCase):
     self.assertTrue(primos(19))
 
   def test_no_primo(self):
+    self.assertFalse(primos(1))
     self.assertFalse(primos(4))
     self.assertFalse(primos(6))
     self.assertFalse(primos(8))
