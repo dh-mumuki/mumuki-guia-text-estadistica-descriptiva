@@ -1,6 +1,5 @@
 class TestPrimos(unittest.TestCase):
   def test_primos(self):
-    self.assertTrue(primos(1))
     self.assertTrue(primos(2))
     self.assertTrue(primos(3))
     self.assertTrue(primos(5))
